@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Music Player</title>
+<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<script type="text/javascript" src="assets/js/ajax.js"></script>
+<script type="text/javascript" src="assets/js/player.js"></script>
+<body>
+	<br>
+	
+	<div id="container">
+		<div id="header-container">
+			<header>		
+				<div class="header">
+					<span class="fa fa-music"></span>
+					<p>Musicload</p>
+			    </div>
+		    </header>	
+		</div>		
+		<div id="player">
+			<div id="cover">
+				<img alt="cover" src="assets/media/Dope_D.O.D.jpg">
+			</div>
+			<div id="title">
+				<h1>Beastie Boys - Sabotage</h1>
+			</div>
+			<div id="bar-container">
+				<div id="out-bar">
+					<div id="inner-bar"></div>
+				</div>
+			</div>
+			<div id="controls-container">
+				<div id="start-time">
+					00:33
+				</div>
+				<div id="controls">
+					<span class="fa fa-chevron-left"></span>
+					<span class="fa fa-play"></span>
+					<span class="fa fa-chevron-right"></span>
+				</div>
+				<div id="full-time">
+					03:30
+				</div>
+			</div>			
+		</div>
+		<div id="container-playlist">
+			<div id="playlist">
+				<ul>				
+				</ul>
+			</div>	
+		</div>			
+	</div> <!-- end of container -->
+	<audio src="" id="audio"></audio>
+		
+</body>
+</html>
